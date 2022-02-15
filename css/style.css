@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+body{
+	font-family: 'Cabin', sans-serif;
+	font-size: 14px;
+	color: #171717;
+}
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.header-area.sticky .navbar-default{
+	background-color: #884bdf;
+}
+
+#hero{
+	background-image: url("../img/hero-bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-top: 40%;
+}
+
+#mambu{
+	background-image: url("../img/mambu-case-bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-top: 35%;
+}
+
+#mambu .container{
+	background-color: #fff;
+	padding: 50px 50px;
+	border-radius: 10px;
+}
+
+
+footer{
+	background-color: #f75903;
+}
+
+#info{
+	text-align: center;
+}
+
+#info h5{
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+.info-work h5{
+	text-transform: uppercase;
+	font-weight: 500;
+}
